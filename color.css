@@ -1,0 +1,195 @@
+.img{
+   width: 200px;
+   height: 200px;
+   margin-top: 5px;
+   margin-left: 680px;
+   border-radius: 40px;
+   display: block;
+   backdrop-filter: blur(40px);
+   opacity: 20px;
+   
+}
+    
+  
+
+
+
+.mainpart{
+    margin-left: 400px;
+    width: 800px;
+    height: 1200px;
+    background-color: #0D0D0D;   
+}
+
+.sideone{
+    
+      width: 300px;
+     height: 800px;
+     float: left;
+}
+.china{
+    
+    font-size: 50px;
+   margin-left: 8px;
+
+  
+}
+.top{
+    
+    height: 300px;
+    margin-bottom: 70px;
+}
+.mother{
+   border: none;
+   
+}
+.toptext{
+    color: #00FF41;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 235px;
+    margin-top: 90px;
+    font-size: 58px;
+    opacity: 60%;
+  
+}
+.toptext:hover{
+    background: linear-gradient(90deg, rgb(249, 90, 90), rgb(246, 194, 97), rgb(181, 181, 71), rgb(28, 104, 28), rgb(49, 49, 159), rgb(114, 1, 114));
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: translateY(-40px);
+}
+.rightside{
+   
+    width: 300px;
+    height: 800px;
+    float: right;
+   
+}
+.china-right{
+    font-size: 50px;
+   margin-left: 242px;
+}
+.para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    
+.button-basic {
+    background: linear-gradient(270deg, #5fe2ff, #e8357a, #226924, #b0982f);
+    background-size: 400% 400%;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  .plus-button{
+    background: linear-gradient(90deg,grey,darkgreen);
+    padding: 20px,20px;
+    color: rgb(0, 255, 51);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .button-hover {
+    background: linear-gradient(90deg, #384430, #5bb5e5);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button-hover:hover {
+    background: linear-gradient(90deg, #535352, #2adeae);
+  }
+  .button-outline {
+    background: transparent;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    border: 4px ;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, #ff7e5f, #feb47b);
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button-shadow {
+    background: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .button-shadow:hover {
+    transform: translateY(-2px);
+  }
+  .button-animated {
+    background: linear-gradient(270deg, #5fe2ff, #e8357a, #226924, #b0982f);
+    background-size: 400% 400%;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  .button-3d {
+    background: linear-gradient(45deg, #e7e015, #103009);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px #2e3322;
+    transition: all 0.2s;
+  }
+  
+  .button-3d:active {
+    box-shadow: 0px 2px 0px #d94a6d;
+    transform: translateY(2px);
+  }
+  .loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #680606;
+    border-top: 5px solid #008c10;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 650px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  img:hover{
+    transform: scaleX(-5);
+   opacity: 30%;
+}
+  
+  
+    
+  
+  
+
+
+  
